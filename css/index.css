@@ -60,7 +60,7 @@ body .container .list ol {
 
 body .container .list ol li {
   display: block;
-  max-width: 90%;
+  max-width: 80%;
   width: 400px;
   margin-left: 50px;
   font-size: 15px;
