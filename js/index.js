@@ -14,7 +14,7 @@ function getTodo(e) {
 
     createLi.style.backgroundColor = '#ffe4b5';
     completeBtn.innerHTML = '<button class="getBtn btn btn-outline-success" id="complete">completed</button>';
-    deleteBtn.innerHTML = '<button class="getBtn btn btn-outline-danger" id="delete">delete</button>';
+    deleteBtn.innerHTML = '<i class="fas fa-times" id="delete"></i>';
 
     if (task.value !== "" && time.value !== "") {
         createLi.textContent = task.value + " by " + time.value;

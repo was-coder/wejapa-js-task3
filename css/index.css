@@ -61,8 +61,8 @@ body .container .list ol {
 body .container .list ol li {
   display: block;
   max-width: 90%;
-  width: 450px;
-  margin-left: 40px;
+  width: 400px;
+  margin-left: 50px;
   font-size: 15px;
   border-radius: 25px;
   padding-left: 10px;
@@ -85,12 +85,20 @@ body .container .list ol li .getBtn {
 
 body .container .list ol li #complete {
   position: absolute;
-  left: 60%;
+  left: 65%;
 }
 
 body .container .list ol li #delete {
   position: absolute;
-  left: 85%;
+  top: 25%;
+  left: 92%;
+  color: #e9967a;
+  font-size: 25px;
+}
+
+body .container .list ol li #delete:hover {
+  cursor: pointer;
+  color: #ff0000;
 }
 
 body .container .list ol li::before {
