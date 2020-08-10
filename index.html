@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <title>To-do App</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h1 class="title">Wejapa To-Dos</h1>
+        <p>This is an application that list out your schedule and time to complete each schedule with a choice to delete, edit and mark a task as completed.</p>
+        
+        <div class="onClick">
+            <input type="text" id="task" name="task" placeholder="Enter a task"><br>
+            <button class="btn btn-outline-primary text-capitalize" id="addTask">add task</button>
+        </div>
+
+        <div class="list">
+            <h2>incomplete task</h2>
+            <ol class="incomplete">
+            </ol>
+        </div>
+
+        <div class="list">
+            <h2>completed task</h2>
+            <ol class="complete">
+            </ol>
+        </div>
+
+    </div>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
