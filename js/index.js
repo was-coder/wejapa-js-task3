@@ -1,3 +1,7 @@
+AOS.init();
+
+
+
 const task = document.getElementById("task");
 const time = document.getElementById("time");
 const addTask = document.querySelector(".onClick > button");
