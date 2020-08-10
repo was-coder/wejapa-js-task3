@@ -30,5 +30,5 @@
 
 <div>
     <h3>HOST LINK</h3>
-    <p> It is hosted on netlify and the link is </p>
+    <p> It is hosted on netlify and the link is https://goofy-allen-17143a.netlify.app/</p>
 </div>
