@@ -32,12 +32,13 @@ body .container .title {
 body .container p {
   font-size: 17px;
   width: 80%;
+  font-weight: 500;
 }
 
 body .container input, body .container #addTask {
   display: block;
   width: 400px;
-  max-width: 100%;
+  max-width: 90%;
   height: 3rem;
   font-size: 20px;
   font-weight: bold;
@@ -48,7 +49,7 @@ body .container input, body .container #addTask {
 }
 
 body .container .list {
-  margin-top: 20px;
+  margin-top: 10px;
   text-transform: capitalize;
 }
 
@@ -59,25 +60,36 @@ body .container .list ol {
 
 body .container .list ol li {
   display: block;
-  max-width: 100%;
+  max-width: 90%;
   width: 450px;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 25px;
   padding-left: 10px;
   margin-top: 5px;
-  font-weight: 500;
+  font-weight: bold;
   height: 3rem;
-  padding-top: 5px;
+  padding-top: 10px;
   counter-increment: counter;
+  position: relative;
 }
 
 body .container .list ol li .getBtn {
-  float: right;
   padding: 5px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: bold;
   text-transform: uppercase;
   margin-right: 10px;
   border-radius: 15px;
+}
+
+body .container .list ol li #complete {
+  position: absolute;
+  left: 60%;
+}
+
+body .container .list ol li #delete {
+  position: absolute;
+  left: 85%;
 }
 
 body .container .list ol li::before {
