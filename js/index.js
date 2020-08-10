@@ -9,8 +9,8 @@ const addTask = document.querySelector(".onClick > button");
 addTask.addEventListener("click", getTodo);
 
 function getTodo(e) {
-    const incomplete = document.querySelector("#incomplete");
-    const complete = document.querySelector("#complete");
+    const incomplete = document.querySelector(".incomplete");
+    const complete = document.querySelector(".complete");
 
     const createLi = document.createElement("li");
     const completeBtn = document.createElement("a");
