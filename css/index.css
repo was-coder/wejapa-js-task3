@@ -37,10 +37,9 @@ body .container p {
 
 body .container input, body .container #addTask {
   display: block;
-  width: 400px;
-  max-width: 90%;
+  width: 500px;
+  max-width: 95%;
   height: 3rem;
-  margin-left: 40px;
   font-size: 20px;
   font-weight: bold;
   padding-left: 10px;
@@ -63,6 +62,7 @@ body .container .list ol li {
   display: block;
   max-width: 90%;
   width: 450px;
+  margin-left: 40px;
   font-size: 15px;
   border-radius: 25px;
   padding-left: 10px;
